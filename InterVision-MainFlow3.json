@@ -1,0 +1,738 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "1e71f586-0c75-4b46-97b1-6923b7fac56d",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": 40,
+      "y": 40
+    },
+    "ActionMetadata": {
+      "1e71f586-0c75-4b46-97b1-6923b7fac56d": {
+        "position": {
+          "x": 169.6,
+          "y": -206.4
+        }
+      },
+      "f4c41a64-aeff-404a-b924-debb888d314b": {
+        "position": {
+          "x": 768.8,
+          "y": 127.2
+        }
+      },
+      "c4ff7852-64ea-4438-9b79-c60a091db3f9": {
+        "position": {
+          "x": 824,
+          "y": 1525.6
+        }
+      },
+      "031d26fc-dd4c-4fb7-8877-8ad01b28afdf": {
+        "position": {
+          "x": 207.2,
+          "y": 1574.4
+        },
+        "parameters": {
+          "EventHooks": {
+            "AgentWhisper": {
+              "displayName": "InterVision-AGENT Whisper"
+            }
+          }
+        },
+        "contactFlow": {
+          "text": "InterVision-AGENT Whisper",
+          "id": "arn:aws:connect:us-east-1:137068225906:instance/f996e809-c68a-4ad2-8da1-8dfb0af71b90/contact-flow/e54cf6fd-9caf-4ef7-a7d9-86a3dfb5861a"
+        },
+        "customerOrAgent": false
+      },
+      "a30c42fb-9ab3-485b-ae78-21953912d908": {
+        "position": {
+          "x": 203.2,
+          "y": 946.4
+        },
+        "parameters": {
+          "EventHooks": {
+            "CustomerQueue": {
+              "displayName": "InterVision-CustomerQueueFlow"
+            }
+          }
+        },
+        "contactFlow": {
+          "text": "InterVision-CustomerQueueFlow",
+          "id": "arn:aws:connect:us-east-1:137068225906:instance/f996e809-c68a-4ad2-8da1-8dfb0af71b90/contact-flow/7d3bb124-f739-4448-8613-62feda7ffe77"
+        },
+        "customerOrAgent": true
+      },
+      "6f870af6-7545-474b-addd-5ee6e4de2b84": {
+        "position": {
+          "x": 200,
+          "y": 1218.4
+        },
+        "parameters": {
+          "EventHooks": {
+            "CustomerWhisper": {
+              "displayName": "InterVision-CUSTOMER WHISPER"
+            }
+          }
+        },
+        "contactFlow": {
+          "text": "InterVision-CUSTOMER WHISPER",
+          "id": "arn:aws:connect:us-east-1:137068225906:instance/f996e809-c68a-4ad2-8da1-8dfb0af71b90/contact-flow/a4e94209-8551-4112-82fb-de279a0dad67"
+        },
+        "customerOrAgent": true
+      },
+      "41bb6179-fb6d-4f44-a5fd-2c88bc41d8e6": {
+        "position": {
+          "x": 168.8,
+          "y": -24
+        }
+      },
+      "796c4144-ff0c-45a0-8c55-725a61a24bc0": {
+        "position": {
+          "x": 176,
+          "y": 219.2
+        },
+        "overrideConsoleVoice": false
+      },
+      "07e98dff-2336-430f-90e2-d735e38893d5": {
+        "position": {
+          "x": 1033.6,
+          "y": -419.2
+        }
+      },
+      "80d79d64-cbf4-4748-9f1f-3ccb5101f171": {
+        "position": {
+          "x": 482.4,
+          "y": -16
+        }
+      },
+      "9e2f112c-141f-43e0-9c0a-5aa22c0347e7": {
+        "position": {
+          "x": 491.2,
+          "y": 177.6
+        },
+        "parameters": {
+          "HoursOfOperationId": {
+            "displayName": "InterVision HOOPs1"
+          }
+        },
+        "Hours": {
+          "id": "arn:aws:connect:us-east-1:137068225906:instance/f996e809-c68a-4ad2-8da1-8dfb0af71b90/operating-hours/f43545e5-bc34-4fdd-8027-811d4c617272",
+          "text": "InterVision HOOPs1"
+        }
+      },
+      "7aaad692-9b17-4531-a0d8-21bd806e9cfd": {
+        "position": {
+          "x": 731.2,
+          "y": -478.4
+        },
+        "parameters": {
+          "FlowModuleId": {
+            "displayName": "Error handling"
+          }
+        },
+        "contactFlowModuleName": "Error handling"
+      },
+      "9c5fe9c9-6a18-426a-b68e-df4149bd1fd2": {
+        "position": {
+          "x": 207.2,
+          "y": 1780.8
+        },
+        "parameters": {
+          "EventHooks": {
+            "CustomerHold": {
+              "displayName": "InterVision- CustomerHold"
+            }
+          }
+        },
+        "contactFlow": {
+          "text": "InterVision- CustomerHold",
+          "id": "arn:aws:connect:us-east-1:137068225906:instance/f996e809-c68a-4ad2-8da1-8dfb0af71b90/contact-flow/30c26a91-e2e8-4911-8a0b-a1c15aeb98f4"
+        },
+        "customerOrAgent": true
+      },
+      "1e430dff-c0f0-407f-9f12-d88af3206296": {
+        "position": {
+          "x": 589.6,
+          "y": 1569.6
+        },
+        "parameters": {
+          "FlowModuleId": {
+            "displayName": "InterVision-SystemFailure"
+          }
+        },
+        "contactFlowModuleName": "InterVision-SystemFailure"
+      },
+      "8e3c86b7-0518-4092-a69f-8fe131cebe58": {
+        "position": {
+          "x": 204.8,
+          "y": 1994.4
+        },
+        "parameters": {
+          "EventHooks": {
+            "AgentHold": {
+              "displayName": "InterVision-AGENT HOLD"
+            }
+          }
+        },
+        "contactFlow": {
+          "text": "InterVision-AGENT HOLD",
+          "id": "arn:aws:connect:us-east-1:137068225906:instance/f996e809-c68a-4ad2-8da1-8dfb0af71b90/contact-flow/88ffae04-7fad-4508-affd-4390f1a2fda5"
+        },
+        "customerOrAgent": false
+      },
+      "16e4de68-b78e-4df1-9f5f-e0d52b29f75d": {
+        "position": {
+          "x": 760.8,
+          "y": -266.4
+        },
+        "parameters": {
+          "LexV2Bot": {
+            "AliasArn": {
+              "displayName": "TestBotAlias",
+              "useLexBotDropdown": true,
+              "lexV2BotName": "InterVision-MainMenu"
+            }
+          }
+        },
+        "useLexBotDropdown": true,
+        "lexV2BotName": "InterVision-MainMenu",
+        "lexV2BotAliasName": "TestBotAlias",
+        "conditionMetadata": [
+          {
+            "id": "22783b18-ca48-4c23-9b7b-aed9d9e74674",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "HumanResource"
+          },
+          {
+            "id": "73560da7-d29c-49df-8f1e-77527d6b55bf",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "Helpdesk"
+          }
+        ]
+      },
+      "7b3a27e6-9270-4bd9-a6ce-4d9758ade899": {
+        "position": {
+          "x": 1417.6,
+          "y": 465.6
+        }
+      },
+      "f6fe6f52-2c1d-403e-8993-cf0d331da39b": {
+        "position": {
+          "x": 508.8,
+          "y": 419.2
+        }
+      },
+      "cf01d106-4f13-4942-9cff-205b49b9dca4": {
+        "position": {
+          "x": 1101.6,
+          "y": 340.8
+        },
+        "parameters": {
+          "FlowModuleId": {
+            "displayName": "Error handling"
+          }
+        },
+        "contactFlowModuleName": "Error handling"
+      },
+      "49c483ec-92af-48d4-bf1f-b00b441d73fe": {
+        "position": {
+          "x": 1780,
+          "y": -122.4
+        }
+      },
+      "1720eeea-0b31-4801-9d14-6fa60e9874b8": {
+        "position": {
+          "x": 1403.2,
+          "y": -215.2
+        }
+      },
+      "9300e24d-8f4f-41ce-967e-80e08fa0f2dd": {
+        "position": {
+          "x": 1031.2,
+          "y": -292.8
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "InterVision HumanResource"
+          }
+        },
+        "queue": {
+          "text": "InterVision HumanResource"
+        }
+      },
+      "7fdffba1-6a13-4937-982a-4efc045a7a34": {
+        "position": {
+          "x": 1041.6,
+          "y": -82.4
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "InterVision Helpdesk"
+          }
+        },
+        "queue": {
+          "text": "InterVision Helpdesk"
+        }
+      },
+      "ed782602-7165-4b4c-95fa-61f7f1c1f9da": {
+        "position": {
+          "x": 1523.2,
+          "y": 50.4
+        },
+        "parameters": {
+          "FlowModuleId": {
+            "displayName": "Error handling"
+          }
+        },
+        "contactFlowModuleName": "Error handling"
+      }
+    },
+    "Annotations": [],
+    "name": "InterVision-MainFlow3",
+    "description": "",
+    "type": "contactFlow",
+    "status": "PUBLISHED",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {
+        "FlowLoggingBehavior": "Enabled"
+      },
+      "Identifier": "1e71f586-0c75-4b46-97b1-6923b7fac56d",
+      "Type": "UpdateFlowLoggingBehavior",
+      "Transitions": {
+        "NextAction": "41bb6179-fb6d-4f44-a5fd-2c88bc41d8e6"
+      }
+    },
+    {
+      "Parameters": {
+        "LoopCount": "3"
+      },
+      "Identifier": "f4c41a64-aeff-404a-b924-debb888d314b",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "7fdffba1-6a13-4937-982a-4efc045a7a34",
+        "Conditions": [
+          {
+            "NextAction": "16e4de68-b78e-4df1-9f5f-e0d52b29f75d",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "7fdffba1-6a13-4937-982a-4efc045a7a34",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "c4ff7852-64ea-4438-9b79-c60a091db3f9",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "EventHooks": {
+          "AgentWhisper": "arn:aws:connect:us-east-1:137068225906:instance/f996e809-c68a-4ad2-8da1-8dfb0af71b90/contact-flow/e54cf6fd-9caf-4ef7-a7d9-86a3dfb5861a"
+        },
+        "EventHooksConfiguration": {
+          "AgentWhisper": {
+            "DisableExecution": "false"
+          }
+        }
+      },
+      "Identifier": "031d26fc-dd4c-4fb7-8877-8ad01b28afdf",
+      "Type": "UpdateContactEventHooks",
+      "Transitions": {
+        "NextAction": "9c5fe9c9-6a18-426a-b68e-df4149bd1fd2",
+        "Errors": [
+          {
+            "NextAction": "1e430dff-c0f0-407f-9f12-d88af3206296",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "EventHooks": {
+          "CustomerQueue": "arn:aws:connect:us-east-1:137068225906:instance/f996e809-c68a-4ad2-8da1-8dfb0af71b90/contact-flow/7d3bb124-f739-4448-8613-62feda7ffe77"
+        }
+      },
+      "Identifier": "a30c42fb-9ab3-485b-ae78-21953912d908",
+      "Type": "UpdateContactEventHooks",
+      "Transitions": {
+        "NextAction": "6f870af6-7545-474b-addd-5ee6e4de2b84",
+        "Errors": [
+          {
+            "NextAction": "1e430dff-c0f0-407f-9f12-d88af3206296",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "EventHooks": {
+          "CustomerWhisper": "arn:aws:connect:us-east-1:137068225906:instance/f996e809-c68a-4ad2-8da1-8dfb0af71b90/contact-flow/a4e94209-8551-4112-82fb-de279a0dad67"
+        },
+        "EventHooksConfiguration": {
+          "CustomerWhisper": {
+            "DisableExecution": "false"
+          }
+        }
+      },
+      "Identifier": "6f870af6-7545-474b-addd-5ee6e4de2b84",
+      "Type": "UpdateContactEventHooks",
+      "Transitions": {
+        "NextAction": "031d26fc-dd4c-4fb7-8877-8ad01b28afdf",
+        "Errors": [
+          {
+            "NextAction": "1e430dff-c0f0-407f-9f12-d88af3206296",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "RecordingBehavior": {
+          "RecordedParticipants": [
+            "Agent",
+            "Customer"
+          ],
+          "IVRRecordingBehavior": "Enabled"
+        },
+        "AnalyticsBehavior": {
+          "Enabled": "True",
+          "AnalyticsLanguage": "en-US",
+          "AnalyticsRedactionBehavior": "Enabled",
+          "AnalyticsRedactionResults": "RedactedOnly",
+          "AnalyticsRedactionMaskMode": "PII",
+          "ChannelConfiguration": {
+            "Chat": {
+              "AnalyticsModes": []
+            },
+            "Voice": {
+              "AnalyticsModes": [
+                "PostContact"
+              ]
+            }
+          }
+        }
+      },
+      "Identifier": "41bb6179-fb6d-4f44-a5fd-2c88bc41d8e6",
+      "Type": "UpdateContactRecordingBehavior",
+      "Transitions": {
+        "NextAction": "796c4144-ff0c-45a0-8c55-725a61a24bc0"
+      }
+    },
+    {
+      "Parameters": {
+        "TextToSpeechVoice": "Matthew"
+      },
+      "Identifier": "796c4144-ff0c-45a0-8c55-725a61a24bc0",
+      "Type": "UpdateContactTextToSpeechVoice",
+      "Transitions": {
+        "NextAction": "a30c42fb-9ab3-485b-ae78-21953912d908"
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "07e98dff-2336-430f-90e2-d735e38893d5",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "SSML": "Thank you for calling InterVision. We are here to assist you with your software problems. Your call will be recorded for quality and compliance purposes."
+      },
+      "Identifier": "80d79d64-cbf4-4748-9f1f-3ccb5101f171",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "9e2f112c-141f-43e0-9c0a-5aa22c0347e7",
+        "Errors": [
+          {
+            "NextAction": "7aaad692-9b17-4531-a0d8-21bd806e9cfd",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "HoursOfOperationId": "arn:aws:connect:us-east-1:137068225906:instance/f996e809-c68a-4ad2-8da1-8dfb0af71b90/operating-hours/f43545e5-bc34-4fdd-8027-811d4c617272"
+      },
+      "Identifier": "9e2f112c-141f-43e0-9c0a-5aa22c0347e7",
+      "Type": "CheckHoursOfOperation",
+      "Transitions": {
+        "NextAction": "7aaad692-9b17-4531-a0d8-21bd806e9cfd",
+        "Conditions": [
+          {
+            "NextAction": "16e4de68-b78e-4df1-9f5f-e0d52b29f75d",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "True"
+              ]
+            }
+          },
+          {
+            "NextAction": "f6fe6f52-2c1d-403e-8993-cf0d331da39b",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "False"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "7aaad692-9b17-4531-a0d8-21bd806e9cfd",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "FlowModuleId": "6b979446-81da-4782-a8e3-f0a3ac56874d"
+      },
+      "Identifier": "7aaad692-9b17-4531-a0d8-21bd806e9cfd",
+      "Type": "InvokeFlowModule",
+      "Transitions": {
+        "NextAction": "07e98dff-2336-430f-90e2-d735e38893d5",
+        "Errors": [
+          {
+            "NextAction": "07e98dff-2336-430f-90e2-d735e38893d5",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "EventHooks": {
+          "CustomerHold": "arn:aws:connect:us-east-1:137068225906:instance/f996e809-c68a-4ad2-8da1-8dfb0af71b90/contact-flow/30c26a91-e2e8-4911-8a0b-a1c15aeb98f4"
+        }
+      },
+      "Identifier": "9c5fe9c9-6a18-426a-b68e-df4149bd1fd2",
+      "Type": "UpdateContactEventHooks",
+      "Transitions": {
+        "NextAction": "8e3c86b7-0518-4092-a69f-8fe131cebe58",
+        "Errors": [
+          {
+            "NextAction": "1e430dff-c0f0-407f-9f12-d88af3206296",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "FlowModuleId": "7d7c6e48-5dd8-4461-a530-566c81bb04e2"
+      },
+      "Identifier": "1e430dff-c0f0-407f-9f12-d88af3206296",
+      "Type": "InvokeFlowModule",
+      "Transitions": {
+        "NextAction": "c4ff7852-64ea-4438-9b79-c60a091db3f9",
+        "Errors": [
+          {
+            "NextAction": "c4ff7852-64ea-4438-9b79-c60a091db3f9",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "EventHooks": {
+          "AgentHold": "arn:aws:connect:us-east-1:137068225906:instance/f996e809-c68a-4ad2-8da1-8dfb0af71b90/contact-flow/88ffae04-7fad-4508-affd-4390f1a2fda5"
+        }
+      },
+      "Identifier": "8e3c86b7-0518-4092-a69f-8fe131cebe58",
+      "Type": "UpdateContactEventHooks",
+      "Transitions": {
+        "NextAction": "80d79d64-cbf4-4748-9f1f-3ccb5101f171",
+        "Errors": [
+          {
+            "NextAction": "1e430dff-c0f0-407f-9f12-d88af3206296",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "In a few words, how can i help you?",
+        "LexV2Bot": {
+          "AliasArn": "arn:aws:lex:us-east-1:137068225906:bot-alias/K2OVCDYD9T/TSTALIASID"
+        }
+      },
+      "Identifier": "16e4de68-b78e-4df1-9f5f-e0d52b29f75d",
+      "Type": "ConnectParticipantWithLexBot",
+      "Transitions": {
+        "NextAction": "cf01d106-4f13-4942-9cff-205b49b9dca4",
+        "Conditions": [
+          {
+            "NextAction": "9300e24d-8f4f-41ce-967e-80e08fa0f2dd",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "HumanResource"
+              ]
+            }
+          },
+          {
+            "NextAction": "7fdffba1-6a13-4937-982a-4efc045a7a34",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "Helpdesk"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "f4c41a64-aeff-404a-b924-debb888d314b",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "cf01d106-4f13-4942-9cff-205b49b9dca4",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "7b3a27e6-9270-4bd9-a6ce-4d9758ade899",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "SSML": "Thank you for contacting InterVision. Our office is currently closed. Our regular business hours are Mondays  through Friday, from 8:00 AM to 4PM.For More information use our automated services, which are available 24/7 or you may call back during business hours. Thank You."
+      },
+      "Identifier": "f6fe6f52-2c1d-403e-8993-cf0d331da39b",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "7b3a27e6-9270-4bd9-a6ce-4d9758ade899",
+        "Errors": [
+          {
+            "NextAction": "cf01d106-4f13-4942-9cff-205b49b9dca4",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "FlowModuleId": "6b979446-81da-4782-a8e3-f0a3ac56874d"
+      },
+      "Identifier": "cf01d106-4f13-4942-9cff-205b49b9dca4",
+      "Type": "InvokeFlowModule",
+      "Transitions": {
+        "NextAction": "7b3a27e6-9270-4bd9-a6ce-4d9758ade899",
+        "Errors": [
+          {
+            "NextAction": "7b3a27e6-9270-4bd9-a6ce-4d9758ade899",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "49c483ec-92af-48d4-bf1f-b00b441d73fe",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {},
+      "Identifier": "1720eeea-0b31-4801-9d14-6fa60e9874b8",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "ed782602-7165-4b4c-95fa-61f7f1c1f9da",
+        "Errors": [
+          {
+            "NextAction": "49c483ec-92af-48d4-bf1f-b00b441d73fe",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "ed782602-7165-4b4c-95fa-61f7f1c1f9da",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-east-1:137068225906:instance/f996e809-c68a-4ad2-8da1-8dfb0af71b90/queue/d8924ff8-6b2d-4376-91bf-afe6efbda073"
+      },
+      "Identifier": "9300e24d-8f4f-41ce-967e-80e08fa0f2dd",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "1720eeea-0b31-4801-9d14-6fa60e9874b8",
+        "Errors": [
+          {
+            "NextAction": "ed782602-7165-4b4c-95fa-61f7f1c1f9da",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-east-1:137068225906:instance/f996e809-c68a-4ad2-8da1-8dfb0af71b90/queue/04644b10-138a-4f01-8e1f-0b0f764986f7"
+      },
+      "Identifier": "7fdffba1-6a13-4937-982a-4efc045a7a34",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "1720eeea-0b31-4801-9d14-6fa60e9874b8",
+        "Errors": [
+          {
+            "NextAction": "ed782602-7165-4b4c-95fa-61f7f1c1f9da",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "FlowModuleId": "6b979446-81da-4782-a8e3-f0a3ac56874d"
+      },
+      "Identifier": "ed782602-7165-4b4c-95fa-61f7f1c1f9da",
+      "Type": "InvokeFlowModule",
+      "Transitions": {
+        "NextAction": "49c483ec-92af-48d4-bf1f-b00b441d73fe",
+        "Errors": [
+          {
+            "NextAction": "49c483ec-92af-48d4-bf1f-b00b441d73fe",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    }
+  ]
+}
